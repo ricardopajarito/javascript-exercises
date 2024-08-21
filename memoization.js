@@ -17,9 +17,12 @@ const memoization = (fn) => {
 
 }
 
+
 const resultado = memoization(a => a*2);
 
 console.log(resultado(1))
 console.log(resultado(1))
 console.log(resultado(1))
 console.log(resultado(1))
+
+export default memoization;
